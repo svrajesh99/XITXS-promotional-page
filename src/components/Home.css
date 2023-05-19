@@ -1,0 +1,152 @@
+.home {
+  background-image: url(/src/images/ddddf\ 1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 4% 15% 4% 15%;
+}
+.img {
+  float: left;
+  width: 15%;
+  height: auto;
+}
+.buttons {
+  float: right;
+}
+.home-bt {
+  color: black;
+  background-color: white;
+  border: none;
+  font-size: 14px;
+  padding: 5px;
+}
+.sport-bt {
+  font-size: 14px;
+  padding: 5px;
+  border: none;
+  color: white;
+  background-color: black;
+  margin-left: 20px;
+}
+.esport-bt {
+  font-size: 14px;
+  padding: 5px;
+  border: none;
+  color: white;
+  background-color: black;
+  margin-left: 20px;
+}
+.buttons img {
+  position: absolute;
+  width: 50px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.menu {
+  float: right;
+  color: white;
+  font-size: 2rem;
+  display: none !important;
+}
+
+.x {
+  margin-left: -75%;
+  margin-top: 5%;
+  padding-bottom: 60px;
+}
+.x img {
+  width: 25%;
+  margin-left: 5px;
+}
+.image {
+  position: absolute;
+  margin-top: -25%;
+  margin-left: 35%;
+}
+.image img {
+  width: 100%;
+}
+.home-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30%;
+  float: left;
+  margin-top: -10%;
+}
+.grid-item1 {
+  width: 180%;
+}
+.grid-item2 {
+  width: 30%;
+}
+.grid-item3 {
+  width: 70%;
+  margin-top: -15px;
+}
+.show-menu {
+  display: none;
+}
+.show-menu1 {
+  display: none;
+}
+#cancel {
+  display: none;
+}
+.cancel{
+  display: none;
+}
+@media (max-width: 576px) {
+  .menu {
+    display: block !important;
+    margin-top: -5px;
+    font-size: 2rem;
+  }
+  .buttons {
+    display: none;
+  }
+  .img {
+    width: 120px;
+  }
+  #cancel {
+    position: absolute;
+    display: block;
+    color: white;
+    font-size: 1rem;
+    margin-left: 73%;
+    margin-top: -3%;
+  }
+
+  .show-menu1 {
+    position: absolute;
+    width: 25%;
+    height: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60%;
+    margin-top: 0.5%;
+  }
+  .show-menu1 .home-bt {
+    width: 50%;
+    font-size: 1.5vw;
+    font-weight: 800;
+  }
+  .show-menu1 .sport-bt {
+    width: 50%;
+    margin: 0%;
+    margin-top: 3%;
+    font-size: 1.5vw;
+    font-weight: 800;
+  }
+  .show-menu1 .esport-bt {
+    width: 50%;
+    margin: 0%;
+    margin-top: 3%;
+    font-size: 1.5vw;
+    font-weight: 800;
+  }
+  .show-menu1 img {
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 7%;
+  }
+}

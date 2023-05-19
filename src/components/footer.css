@@ -1,0 +1,47 @@
+.footer {
+  position: relative;
+  padding: 4% 15% 4% 15%;
+  background-color: black;
+  color: white;
+}
+.foooter-grid {
+  margin-top: -10%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  font-weight: 100;
+  font-size: 2vw;
+}
+.foooter-grid a {
+  color: white;
+  text-decoration: none;
+}
+.publisher {
+  font-size: 1vw;
+  float: left;
+}
+.footer-right {
+  font-size: 1vw;
+  float: right;
+}
+.footer-right a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+.linear-gradient8 {
+  position: absolute;
+  width: 20%;
+  height: 35%;
+  background: linear-gradient(143.31deg, #ff0000 100%, #7e7e7e 89.12%);
+  filter: blur(63.5px);
+  margin-top: -10%;
+  margin-left: -20%;
+}
+
+@media (max-width: 576px) {
+  .foooter-grid {
+    grid-template-columns: auto auto;
+    text-align: center;
+  }
+}

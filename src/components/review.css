@@ -1,0 +1,44 @@
+.review {
+  position: relative;
+  padding: 4% 15% 4% 15%;
+  background-color: black;
+  color: white;
+}
+.p1 {
+  color: yellow;
+  margin-left: 5%;
+  margin-top: 5%;
+  position: absolute;
+  font-size: 3vw;
+}
+.review-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
+.review img {
+  width: 100%;
+}
+.p2 {
+  font-size: 1.5vw;
+  margin-left: 10%;
+}
+
+@media (max-width: 576px) {
+  .review-grid {
+    grid-template-columns: auto;
+  }
+  .review img {
+    width: 75%;
+    text-align: center;
+  }
+  .p1 {
+    font-size: 2rem;
+    margin-top: 20%;
+    margin-left: 30%;
+  }
+  .p2 {
+    font-size: 1rem;
+  }
+
+}

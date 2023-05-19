@@ -1,0 +1,73 @@
+.demo {
+  background-color: black;
+  color: white;
+  padding: 4% 15% 4% 15%;
+  height: auto;
+}
+.heading {
+  font-family: Rubic Mono One;
+  font-weight: 800;
+  font-size: 3vw;
+}
+.description {
+  font-size: 1.5vw;
+  font-weight: 100;
+}
+.demo button {
+  background-color: yellow;
+  border: none;
+  padding: 5px;
+  font-size: 1vw;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 10px;
+}
+.scr1 img {
+  width: 100%;
+}
+.scr2 img {
+  width: 100%;
+}
+.xtixs {
+  text-align: center;
+}
+.xtixs img {
+  width: 50%;
+  padding: 5px;
+}
+.linear-gradient1 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background: linear-gradient(143.31deg, #4c3f68 0%, #7e7e7e 89.12%);
+  filter: blur(63.5px);
+  margin-left: -30%;
+  margin-top: -10%;
+}
+
+@media (max-width: 576px) {
+  .grid {
+    grid-template-columns: auto;
+  }
+  .scr2 img {
+    width: 100%;
+  }
+  .scr1 img {
+    width: 100%;
+  }
+  .scr2 {
+    text-align: center;
+  }
+  .scr1 {
+    text-align: center;
+  }
+  .xtixs img {
+    width: 70%;
+  }
+  .description {
+    font-size: 3vw;
+  }
+}

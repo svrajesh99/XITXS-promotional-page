@@ -1,0 +1,38 @@
+.partners{
+        position: relative;
+        padding: 4% 15% 4% 15%;
+        background-color: black;
+        color: white;
+      }
+.partners-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.partners-logo{
+    padding: 20px;
+}
+.partners-logo img{
+    width: 80%;
+    padding: 20px;
+}
+.partners-dsc img{
+    width: 80%;
+    text-align: center;
+    margin-top: 20%;
+    padding: 20px;
+}
+.partners-dsc{
+    background-image: url(../images/collobrationx.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+@media (max-width: 576px) {
+    .partners-grid{
+        grid-template-columns: auto ;
+    }
+    .partners-dsc img{
+        width: 70%;
+        margin-top: 10%;
+    }
+}

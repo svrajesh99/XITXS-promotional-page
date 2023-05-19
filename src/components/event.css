@@ -1,0 +1,70 @@
+.event {
+  padding: 4% 15% 4% 15%;
+  background-color: black;
+  color: white;
+}
+.p11 {
+  font-family: Rubic Mono One;
+  text-align: center;
+  font-weight: 800;
+  font-size: 4vw;
+}
+.p21 {
+  font-size: 2vw;
+}
+.profile-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  font-size: 1vw;
+}
+.grid-item img {
+  width: 70%;
+  margin-left: 30%;
+}
+.d1 {
+  margin-top: -40%;
+}
+.d2 {
+  margin-top: -40%;
+}
+.d3 {
+  margin-top: -40%;
+}
+.grid-heading {
+  text-align: center;
+}
+.linear-gradient2 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background: linear-gradient(143.31deg, #ff00e5 0%, rgba(255, 0, 0, 0) 89.12%);
+  filter: blur(63.5px);
+  margin-left: -30%;
+  margin-top: -5%;
+}
+.linear-gradient3 {
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  background: linear-gradient(323.31deg, #4c3f68 0%, #7e7e7e 89.12%);
+  filter: blur(63.5px);
+  margin-left: 75%;
+  margin-top: -35%;
+}
+@media (max-width: 576px) {
+  .profile-grid {
+    grid-template-columns: auto;
+    font-size: 3vw;
+  }
+  .grid-item img {
+    width: 50%;
+    margin-left: 20%;
+  }
+  .p11 {
+    font-size: 2rem;
+  }
+  .p2 {
+    font-size: 0.5rem;
+  }
+}
